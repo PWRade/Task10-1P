@@ -1,0 +1,95 @@
+/*
+    custlogin.css
+    StyleSheet for custlogin.html
+    Name: Richard Adams
+    Last Updated: 03/09/2021
+
+
+*/
+
+
+.navi{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #232550;
+}
+
+#nav-left{
+    width: auto;
+    height: 60px;
+}
+
+#nav-left h2{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 60px;
+    font-size: 36px;
+    letter-spacing: -3px;
+    font-weight: 600;
+}
+
+#nav-center{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-center div{
+    height: 100%;
+    padding: 0 20px;
+    line-height: 60px;
+}
+
+#nav-center div:after{
+    display: block;
+    content: '';
+    border-bottom: solid 3px #ED3D63;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+#nav-center div:hover:after { transform: scaleX(1); }
+
+
+#nav-right div{
+    height: 38px;
+    width: 75px;
+    text-align: center;
+    margin: 10px;
+    padding: 0 20px;
+    line-height: 40px;
+    border-radius: 6px;
+    background-color:#ED3D63;
+    border: 2px solid white;
+    font-weight: 600;
+    transition: .12s ease-in;
+}
+
+#nav-left a,
+#nav-right a,
+#nav-center a,
+#nav-left a:visited,
+#nav-right a:visited,
+#nav-center a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+#nav-center a:hover {
+    text-decoration: none;
+}
+
+#nav-right a:hover div{
+    background-color: white;
+    color: #ED3D63;
+    border: 2px solid #ED3D63;
+}
+
+@media only screen and (max-width: 630px) {
+    
+}

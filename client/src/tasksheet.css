@@ -1,0 +1,96 @@
+.post-task-form{
+    margin: auto;
+    width:840px;
+    box-shadow: 1px 1px 24px rgb(177, 177, 177);
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.task-container h4{
+    background-color: #232550;
+    color:white;
+    font-weight:400;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 8px;
+}
+
+
+.task-container input[type=text],
+.task-container input[type=date],
+.task-container input[type=number]{
+    width: 100%;
+    border-radius: 4px;
+    height: 30px;
+    margin-left: 8px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.task-container input[type=radio]
+{
+    margin-left: 20px;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+th{
+    width: 120px;
+    text-align: start;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+td{
+    width: 400px;
+    text-align: start;
+}
+
+.task-container textarea{
+    width: 100%;
+    border-radius: 4px;
+    height: 80px;
+    margin-left: 8px;
+    resize: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+p{
+    font-weight: bold;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+.button-div{
+    width: 15%;
+    margin-left:auto;
+}
+
+.post-task-button{
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    height: 42px;
+    background-color: #ed3d63d8;
+    font-family: inherit;
+    border-radius: 8px;
+    transition: .08s ease-in;
+    border: 2px solid white;
+    margin: 8px;
+}
+
+.post-task-button:hover{
+    background-color: #ED3D63;
+}
